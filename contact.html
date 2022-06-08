@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Opdracht voor NHA met een cv en contactformulier.">
+    <meta name="keywords" content="cv, nha, opdracht, leren, contact">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mijn CV</title>
+</head>
+
+<body>
+<header>
+    <h1>Contact</h1>
+</header>
+<nav>
+    <ul>
+        <li>
+            <a href="index.html">Home</a>
+        </li>
+        <li>
+            <a href="mijncv.html">Mijn CV</a>
+        </li>
+        <li class="active">
+            <a href="contact.html">Contact</a>
+        </li>
+    </ul>
+</nav>
+<article>
+    <form action="https://formspree.io/f/xbjwbgbn" method="POST">
+            <label>
+                Voornaam:
+                <input type="text" name="voornaam" required>
+            </label><br><br>
+            <label>
+                Achternaam:
+                <input type="text" name="achternaam" required>
+            </label><br><br>
+            <label>
+                Emailadres:
+                <input type="email" name="emailadres" required>
+            </label><br><br>
+            <label>
+                Bericht:<br><br>
+                <textarea name="bericht"></textarea>
+            </label><br><br>
+            <input type="submit" value="Verzenden">
+    </form>
+</article>
+<footer><p>Copyright Lianne Strik, 2022</p></footer>
+</body>
+</html>
